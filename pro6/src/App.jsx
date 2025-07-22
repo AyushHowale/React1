@@ -14,7 +14,7 @@ function App() {
     let str = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
     if (number) str += "1234567890";
     if (character) str += "!@#$%^&*";
-
+    //Main code for password generation
     for (let i = 0; i <= length; i++) {
       let char = Math.floor(Math.random() * str.length + 1);
       pass += str.charAt(char);
