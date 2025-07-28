@@ -17,7 +17,7 @@ function Login() {
 
 
   return (
-    <div>
+    <div className='border-300'>
       <h2>Login</h2>
       <input type="text" value={username} onChange={(e)=>setusername(e.target.value)} placeholder='Username' />
       {  }
