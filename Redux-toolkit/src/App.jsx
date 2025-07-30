@@ -10,13 +10,15 @@ function App() {
 
   return (
    <>
-   
+   <div>
+    
     <h1 className='text-3xl text-center p-4 text-red-600 bg-green-700'>
     Use redux tool kit
     </h1>
     
     <Addtodo />
     <Todos />
+   </div>
     
     
    </>
